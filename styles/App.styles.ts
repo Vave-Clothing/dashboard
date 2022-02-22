@@ -1,6 +1,6 @@
-import { createStyles } from '@mantine/core';
-import { HEADER_HEIGHT } from '@/styles/Header.styles';
-import { NAVBAR_WIDTH, NAVBAR_BREAKPOINT } from '@/styles/Navbar.styles';
+import { createStyles } from '@mantine/core'
+import { HEADER_HEIGHT } from '@/styles/Header.styles'
+import { NAVBAR_WIDTH, NAVBAR_BREAKPOINT } from '@/styles/Navbar.styles'
 
 export default createStyles((_theme) => ({
   withNavbar: {
@@ -25,4 +25,7 @@ export default createStyles((_theme) => ({
   content: {
     minHeight: 'calc(100vh - 280px)',
   },
-}));
+}))
+
+// Styles borrowed from https://github.com/mantinedev/mantine/blob/master/docs/src/components/Layout/Layout.styles.ts
+// License: MIT

@@ -43,7 +43,7 @@ const Navbar = ({ navOpen }: navbarProps) => {
     </Link>
   ));
 
-  const docs = links.map((group, i) => (
+  const linkCategories = links.map((group, i) => (
     <LinkGroup data={group} key={i} />
   ))
 
@@ -52,7 +52,7 @@ const Navbar = ({ navOpen }: navbarProps) => {
       <ScrollArea style={{ height: '100vh' }} type="scroll">
         <div className={classes.body}>
           {main}
-          <div className={classes.docs}>{docs}</div>
+          <div className={classes.linkCategories}>{linkCategories}</div>
         </div>
       </ScrollArea>
     </nav>

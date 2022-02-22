@@ -82,3 +82,6 @@ export default createStyles((theme) => ({
     },
   },
 }))
+
+// Styles borrowed from https://github.com/mantinedev/mantine/blob/master/docs/src/components/Layout/Header/Header.styles.ts
+// License: MIT

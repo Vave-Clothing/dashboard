@@ -43,7 +43,7 @@ export default createStyles((theme: MantineTheme) => ({
     },
   },
 
-  docs: {
+  linkCategories: {
     marginTop: theme.spacing.xl,
   },
 
@@ -189,3 +189,8 @@ export default createStyles((theme: MantineTheme) => ({
     color: theme.colorScheme === 'dark' ? theme.white : theme.colors.gray[7],
   },
 }))
+
+// Styles borrowed from https://github.com/mantinedev/mantine/blob/master/docs/src/components/Layout/Navbar/Navbar.styles.ts
+// & https://github.com/mantinedev/mantine/blob/master/docs/src/components/Layout/Navbar/NavbarMainLink/NavbarMainLink.styles.ts
+// & https://github.com/mantinedev/mantine/blob/master/docs/src/components/Layout/Navbar/NavbarDocsCategory/NavbarDocsCategory.styles.ts
+// License: MIT
