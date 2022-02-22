@@ -4,6 +4,7 @@ import { MantineProvider } from '@mantine/core'
 import type { AppProps } from 'next/app'
 import { useState } from 'react'
 import useStyles from '@/styles/App.styles'
+import '@/styles/global.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [navOpen, setNavOpen] = useState(false)
